@@ -1,0 +1,103 @@
+.back-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button.clicked {
+  background-color: #aaa;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.backbtn:hover {
+  margin-left: -10px;
+  color: black;
+}
+
+.eventbtn {
+  background-color: #e6e8eb;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+/* .eventbtn:hover{
+  color: white;
+  background-color: #e32747;
+} */
+
+.backbtn {
+  color: gray;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  background-color: #e6e8eb;
+}
+
+.lower_alerts::-webkit-scrollbar {
+  width: 8px;
+  cursor: pointer;
+}
+
+.lower_alerts::-webkit-scrollbar-track {
+  background: transparent;
+  /* color of the tracking area */
+}
+
+.lower_alerts::-webkit-scrollbar-thumb {
+  background-color: #a8a4a4;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: none;
+  /* creates padding around scroll thumb */
+  width: 200px;
+}
+
+@media (max-width:550px) {
+  /* #events {
+    display: none;
+  } */
+}
+
+@media (max-width:990px) {
+  /* #events {
+    display: none;
+  } */
+
+  #eventsDiv {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .eventsDiv1:nth-child(2) {
+    order: 3;
+  }
+
+  .eventsDiv1 {
+    margin-bottom: 10px;
+  }
+
+  .eventsDiv3 {
+    display: none;
+  }
+}
+
+@media (min-width:990px) {
+  #filter {
+    display: none;
+  }
+
+  /* .eventsDiv3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  } */
+}

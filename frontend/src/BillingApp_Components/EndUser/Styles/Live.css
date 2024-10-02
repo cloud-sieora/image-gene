@@ -1,0 +1,10 @@
+.div{
+    border: 1px solid green;
+}
+.div:hover{
+    border: 1px solid red;
+}
+
+.camera-live-plan-selected{
+    border: 4px solid black;
+}

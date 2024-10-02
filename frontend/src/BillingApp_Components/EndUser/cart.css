@@ -1,0 +1,70 @@
+.card-container {
+  margin-bottom: 5px;
+  padding:0px;
+ 
+  width: '100%';
+
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.card {
+  width: calc(23.13% - 2.33px); /* Adjusting for gap */
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 156px;
+  margin-bottom: 5px;
+  flex: 1 0 auto;
+  margin-right: 7px; /* Add gap between cards */
+}
+
+.card:last-child {
+  margin-right: 0; /* Remove gap for the last card in a row */
+}
+
+.card-content {
+  margin-bottom: 5px;
+}
+
+.card-image {
+  margin-bottom: 5px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  margin-bottom: 5px;
+}
+
+.card-description {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 3.5px); /* Two cards per row for tablets with gap of 7px */
+    margin-right: 7px; /* Add gap between cards */
+  }
+  
+  .card:nth-child(2n) {
+    margin-right: 0; /* Remove gap for every second card */
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: calc(100% - 2.33px); /* One card per row for mobile devices with gap */
+    flex: 1 0 100%; /* Reset flex property to occupy full width */
+  }
+}

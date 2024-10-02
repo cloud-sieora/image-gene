@@ -1,0 +1,1036 @@
+[
+    {
+        "_id": "ckxauga0f00465qiddu7w6oby",
+        "order_id": 89,
+        "table_name": "T 4",
+        "operator_type": "CASHIER",
+        "operator_id": "22",
+        "order_type": "DINE_IN",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 6.095238095238095,
+        "delivery_packing_charges": 0,
+        "total_tax_amount": 0.30476190476190473,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61bcf2ecd62ffeff95fdb115"
+            }
+        ],
+        "total": 6.4,
+        "date": "2021-12-17",
+        "time": "23:28",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "DINE_IN",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MIX GRILL",
+                "food_name": "MIX GRILL",
+                "in_time": "23:28",
+                "out_time": "23:28",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 4.8,
+                "food_option_name": "M",
+                "qty": 1,
+                "_id": "61bcf2ecd62ffeff95fdb116"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "MIX SALAD",
+                "in_time": "23:28",
+                "out_time": "23:28",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 0,
+                "price_per_food": 1,
+                "food_option_name": "SMALL",
+                "qty": 1,
+                "_id": "61bcf2ecd62ffeff95fdb117"
+            },
+            {
+                "sub_menu_category": "SOFT DRINKS",
+                "food_name": "PEPSI",
+                "in_time": "23:28",
+                "out_time": "23:28",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 0,
+                "price_per_food": 0.3,
+                "food_option_name": "SMALL",
+                "qty": 2,
+                "_id": "61bcf2ecd62ffeff95fdb118"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CASH",
+                "amount": 3,
+                "_id": "61bcfa67d62ffeff9504705b"
+            },
+            {
+                "name": "CARD",
+                "amount": 3.4000000000000004,
+                "_id": "61bcfa67d62ffeff9504705c"
+            }
+        ],
+        "mobile_number": "NONE",
+        "flat_number": "NONE",
+        "block": "NONE",
+        "building": "NONE",
+        "road": "NONE",
+        "lat": "NONE",
+        "lon": "NONE",
+        "driver": "NONE",
+        "delivery_status": "NONE",
+        "payment_status": 0,
+        "__v": 4
+    },
+    {
+        "_id": "ckxez69zi00jg5qid87jfhnme",
+        "order_id": 60,
+        "table_name": "G 7",
+        "operator_type": "CASHIER",
+        "operator_id": "burhaan",
+        "order_type": "DINE_IN",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 6.667,
+        "delivery_packing_charges": 0,
+        "total_tax_amount": 0.333,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61c0c2b0d62ffeff95246b9d"
+            }
+        ],
+        "total": 7,
+        "date": "2021-12-20",
+        "time": "21:21",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "DINE_IN",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "GRILL",
+                "food_name": "CHICKEN GRILL",
+                "in_time": "20:51",
+                "out_time": "20:51",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 1.3,
+                "food_option_name": "HALF",
+                "qty": 1,
+                "_id": "61c0c2b0d62ffeff95246b9e"
+            },
+            {
+                "sub_menu_category": "GRILL",
+                "food_name": "CHICKEN GRILL",
+                "in_time": "20:51",
+                "out_time": "20:51",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 2.5,
+                "food_option_name": "FULL",
+                "qty": 1,
+                "_id": "61c0c2b0d62ffeff95246b9f"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "MIX SALAD",
+                "in_time": "20:51",
+                "out_time": "20:51",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 0,
+                "price_per_food": 1,
+                "food_option_name": "SMALL",
+                "qty": 1,
+                "_id": "61c0c2b0d62ffeff95246ba0"
+            },
+            {
+                "sub_menu_category": "SOFT DRINKS",
+                "food_name": "WATER",
+                "in_time": "20:51",
+                "out_time": "20:51",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 0,
+                "price_per_food": 0.1,
+                "food_option_name": "SMALL",
+                "qty": 1,
+                "_id": "61c0c2b0d62ffeff95246ba1"
+            },
+            {
+                "sub_menu_category": "SOFT DRINKS",
+                "food_name": "PEPSI FAMILY PACK",
+                "in_time": "21:06",
+                "out_time": "21:06",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 0,
+                "price_per_food": 0.8,
+                "food_option_name": "REGULAR",
+                "qty": 1,
+                "_id": "61c0c641d62ffeff9526f6bf"
+            },
+            {
+                "sub_menu_category": "GRILL",
+                "food_name": "CHICKEN GRILL",
+                "in_time": "21:20",
+                "out_time": "21:20",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 1.3,
+                "food_option_name": "HALF",
+                "qty": 1,
+                "_id": "61c0c98bd62ffeff9529af57"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CASH",
+                "amount": 6,
+                "_id": "61c0d12fd62ffeff95300d65"
+            },
+            {
+                "name": "CARD",
+                "amount": 1,
+                "_id": "61c0d12fd62ffeff95300d66"
+            }
+        ],
+        "mobile_number": "NONE",
+        "flat_number": "NONE",
+        "block": "NONE",
+        "building": "NONE",
+        "road": "NONE",
+        "lat": "NONE",
+        "lon": "NONE",
+        "driver": "NONE",
+        "delivery_status": "NONE",
+        "payment_status": 1,
+        "__v": 10
+    },
+    {
+        "_id": "ckxgd0zmv00ou5qidaxzgesry",
+        "order_id": 60,
+        "table_name": "NONE",
+        "operator_type": "CASHIER",
+        "operator_id": "22",
+        "order_type": "DELIVERY",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 6.9523809523809526,
+        "delivery_packing_charges": 0.4,
+        "total_tax_amount": 0.3676190476190477,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61c209c7d62ffeff958c9c3d"
+            }
+        ],
+        "total": 7.7,
+        "date": "2021-12-21",
+        "time": "20:07",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "DELIVERY",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MIX GRILL",
+                "food_name": "MIX GRILL",
+                "in_time": "20:07",
+                "out_time": "20:07",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 1,
+                "price_per_food": 3,
+                "food_option_name": "S",
+                "qty": 2,
+                "_id": "61c209c7d62ffeff958c9c3e"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "MIX SALAD",
+                "in_time": "20:07",
+                "out_time": "20:07",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 0,
+                "price_per_food": 1,
+                "food_option_name": "SMALL",
+                "qty": 1,
+                "_id": "61c209c7d62ffeff958c9c3f"
+            },
+            {
+                "sub_menu_category": "SOFT DRINKS",
+                "food_name": "PEPSI",
+                "in_time": "20:07",
+                "out_time": "20:07",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 0,
+                "price_per_food": 0.3,
+                "food_option_name": "SMALL",
+                "qty": 1,
+                "_id": "61c209c7d62ffeff958c9c40"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CASH",
+                "amount": 7.5,
+                "_id": "61c25afed62ffeff95b21c1e"
+            },
+            {
+                "name": "CARD",
+                "amount": 0.2,
+                "_id": "61c25afed62ffeff95b21c1f"
+            }
+        ],
+        "mobile_number": "36364265",
+        "flat_number": "4545",
+        "block": "926",
+        "building": "1139",
+        "road": "2629",
+        "lat": "26.0667",
+        "lon": "50.5577",
+        "driver": "krishna",
+        "delivery_status": "34",
+        "payment_status": 1,
+        "__v": 6
+    },
+    {
+        "_id": "ckxtchyd200a128idg94p8w3w",
+        "order_id": 84,
+        "table_name": "G 1",
+        "operator_type": "CASHIER",
+        "operator_id": "burhaan",
+        "order_type": "DINE_IN",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 20.285714285714285,
+        "delivery_packing_charges": 0,
+        "total_tax_amount": 1.0142857142857142,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61ce04db199bb1607c1a1b7b"
+            }
+        ],
+        "total": 21.3,
+        "date": "2021-12-30",
+        "time": "22:13",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "DINE_IN",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MIX GRILL",
+                "food_name": "MIX GRILL",
+                "in_time": "22:13",
+                "out_time": "22:13",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 1,
+                "price_per_food": 4.8,
+                "food_option_name": "M",
+                "qty": 2,
+                "_id": "61ce04db199bb1607c1a1b7c"
+            },
+            {
+                "sub_menu_category": "SHAWARMA",
+                "food_name": "SHAWARMA",
+                "in_time": "22:13",
+                "out_time": "22:13",
+                "food_description": "AL-ZAEEM",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 1.5,
+                "food_option_name": "PLATE SMALL",
+                "qty": 2,
+                "_id": "61ce04db199bb1607c1a1b7d"
+            },
+            {
+                "sub_menu_category": "GRILL",
+                "food_name": "NECK",
+                "in_time": "22:13",
+                "out_time": "22:13",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 1,
+                "price_per_food": 2.3,
+                "food_option_name": "REGULAR",
+                "qty": 2,
+                "_id": "61ce04db199bb1607c1a1b7e"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "MIX SALAD",
+                "in_time": "22:13",
+                "out_time": "22:13",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 0,
+                "price_per_food": 1,
+                "food_option_name": "SMALL",
+                "qty": 2,
+                "_id": "61ce04db199bb1607c1a1b7f"
+            },
+            {
+                "sub_menu_category": "SOFT DRINKS",
+                "food_name": "PEPSI DIET",
+                "in_time": "22:13",
+                "out_time": "22:13",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 0,
+                "price_per_food": 0.3,
+                "food_option_name": "SMALL",
+                "qty": 3,
+                "_id": "61ce04db199bb1607c1a1b80"
+            },
+            {
+                "sub_menu_category": "SOFT DRINKS",
+                "food_name": "PEPSI",
+                "in_time": "22:13",
+                "out_time": "22:13",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 0,
+                "price_per_food": 0.3,
+                "food_option_name": "SMALL",
+                "qty": 4,
+                "_id": "61ce04db199bb1607c1a1b81"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CASH",
+                "amount": 12,
+                "_id": "61ce11a9199bb1607c248664"
+            },
+            {
+                "name": "CARD",
+                "amount": 9.3,
+                "_id": "61ce11a9199bb1607c248665"
+            }
+        ],
+        "mobile_number": "NONE",
+        "flat_number": "NONE",
+        "block": "NONE",
+        "building": "NONE",
+        "road": "NONE",
+        "lat": "NONE",
+        "lon": "NONE",
+        "driver": "NONE",
+        "delivery_status": "NONE",
+        "payment_status": 1,
+        "__v": 5
+    },
+    {
+        "_id": "ckxvn4ne30051ilid90edf2pc",
+        "order_id": 3,
+        "table_name": "NONE",
+        "operator_type": "CASHIER",
+        "operator_id": "22",
+        "order_type": "TAKE_AWAY",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 6.476,
+        "delivery_packing_charges": 0,
+        "total_tax_amount": 0.324,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61d022fe55ee46b2e2c67397"
+            }
+        ],
+        "total": 6.8,
+        "date": "2022-01-01",
+        "time": "13:18",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "TAKE_AWAY",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MADFOUN",
+                "food_name": "MADFOUN CHICKEN",
+                "in_time": "12:46",
+                "out_time": "12:46",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 2,
+                "food_option_name": "M",
+                "qty": 1,
+                "_id": "61d022fe55ee46b2e2c67398"
+            },
+            {
+                "sub_menu_category": "GH00ZI",
+                "food_name": "GHOOZI CHICKEN",
+                "in_time": "12:46",
+                "out_time": "12:46",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 2,
+                "food_option_name": "M",
+                "qty": 1,
+                "_id": "61d022fe55ee46b2e2c67399"
+            },
+            {
+                "sub_menu_category": "GH00ZI",
+                "food_name": "GHOOZI CHICKEN",
+                "in_time": "12:46",
+                "out_time": "12:46",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 1,
+                "food_option_name": "S",
+                "qty": 1,
+                "_id": "61d022fe55ee46b2e2c6739a"
+            },
+            {
+                "sub_menu_category": "MADFOUN",
+                "food_name": "MADFOUN CHICKEN",
+                "in_time": "13:00",
+                "out_time": "13:00",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 6,
+                "food_type": 1,
+                "price_per_food": 1,
+                "food_option_name": "S",
+                "qty": 1,
+                "_id": "61d0263155ee46b2e2c76533"
+            },
+            {
+                "sub_menu_category": "GRILL",
+                "food_name": "CHICKEN GRILL",
+                "in_time": "13:14",
+                "out_time": "13:14",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 1,
+                "price_per_food": 1.3,
+                "food_option_name": "HALF",
+                "qty": 1,
+                "_id": "61d0296a55ee46b2e2c873e9"
+            },
+            {
+                "sub_menu_category": "RICE",
+                "food_name": "EMPTY RICE",
+                "in_time": "13:18",
+                "out_time": "13:18",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 0.5,
+                "food_option_name": "S",
+                "qty": 1,
+                "_id": "61d02a7f55ee46b2e2c8cf2f"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CASH",
+                "amount": 3.3,
+                "_id": "61d02bc055ee46b2e2c93a52"
+            },
+            {
+                "name": "CARD",
+                "amount": 3.5,
+                "_id": "61d02bc055ee46b2e2c93a53"
+            }
+        ],
+        "mobile_number": "NONE",
+        "flat_number": "NONE",
+        "block": "NONE",
+        "building": "NONE",
+        "road": "NONE",
+        "lat": "NONE",
+        "lon": "NONE",
+        "driver": "NONE",
+        "delivery_status": "NONE",
+        "payment_status": 1,
+        "__v": 11
+    },
+    {
+        "_id": "ckxvsozb5005kilid626x0fsf",
+        "order_id": 20,
+        "table_name": "NONE",
+        "operator_type": "CASHIER",
+        "operator_id": "22",
+        "order_type": "TAKE_AWAY",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 4,
+        "delivery_packing_charges": 0,
+        "total_tax_amount": 0.2,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61d0478155ee46b2e2d6dd8a"
+            }
+        ],
+        "total": 4.2,
+        "date": "2022-01-01",
+        "time": "15:22",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "TAKE_AWAY",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "GH00ZI",
+                "food_name": "GHOOZI MEAT",
+                "in_time": "15:22",
+                "out_time": "15:22",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 2.7,
+                "food_option_name": "M",
+                "qty": 1,
+                "_id": "61d0478155ee46b2e2d6dd8b"
+            },
+            {
+                "sub_menu_category": "GH00ZI",
+                "food_name": "GHOOZI MEAT",
+                "in_time": "15:22",
+                "out_time": "15:22",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 3,
+                "food_type": 1,
+                "price_per_food": 1.5,
+                "food_option_name": "S",
+                "qty": 1,
+                "_id": "61d0478155ee46b2e2d6dd8c"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CASH",
+                "amount": 0.2,
+                "_id": "61d0496855ee46b2e2d7ff50"
+            },
+            {
+                "name": "CARD",
+                "amount": 4,
+                "_id": "61d0496855ee46b2e2d7ff51"
+            }
+        ],
+        "mobile_number": "NONE",
+        "flat_number": "NONE",
+        "block": "NONE",
+        "building": "NONE",
+        "road": "NONE",
+        "lat": "NONE",
+        "lon": "NONE",
+        "driver": "NONE",
+        "delivery_status": "NONE",
+        "payment_status": 1,
+        "__v": 3
+    },
+    {
+        "_id": "cky5zzoy90175ilidfl7idjic",
+        "order_id": 26,
+        "table_name": "NONE",
+        "operator_type": "CASHIER",
+        "operator_id": "burhaan",
+        "order_type": "DELIVERY",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 36.762,
+        "delivery_packing_charges": 0.2,
+        "total_tax_amount": 1.838,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61d9b15855ee46b2e20d571d"
+            }
+        ],
+        "total": 38.8,
+        "date": "2022-01-08",
+        "time": "18:56",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "DELIVERY",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MIX GRILL",
+                "food_name": "MIX GRILL",
+                "in_time": "18:44",
+                "out_time": "18:44",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 1,
+                "price_per_food": 4.8,
+                "food_option_name": "M",
+                "qty": 7,
+                "_id": "61d9b15855ee46b2e20d571e"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "MIX SALAD",
+                "in_time": "18:44",
+                "out_time": "18:44",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 0,
+                "price_per_food": 1,
+                "food_option_name": "SMALL",
+                "qty": 5,
+                "_id": "61d9b15855ee46b2e20d571f"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "BENIFIT PAY",
+                "amount": 15,
+                "_id": "61da150655ee46b2e23c2fba"
+            },
+            {
+                "name": "CARD",
+                "amount": 23.799999999999997,
+                "_id": "61da150655ee46b2e23c2fbb"
+            }
+        ],
+        "mobile_number": "39194699",
+        "flat_number": "460",
+        "block": "1205",
+        "building": "-",
+        "road": "508",
+        "lat": "26.0667",
+        "lon": "50.5577",
+        "driver": "krishna",
+        "delivery_status": "34",
+        "payment_status": 1,
+        "__v": 4
+    },
+    {
+        "_id": "cky61kwlk017gilid38e181f3",
+        "order_id": 37,
+        "table_name": "NONE",
+        "operator_type": "CASHIER",
+        "operator_id": "burhaan",
+        "order_type": "TAKE_AWAY",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 7.238095238095238,
+        "delivery_packing_charges": 0,
+        "total_tax_amount": 0.3619047619047619,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61d9bbc555ee46b2e2104d1f"
+            }
+        ],
+        "total": 7.6,
+        "date": "2022-01-08",
+        "time": "19:28",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "TAKE_AWAY",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MIX GRILL",
+                "food_name": "MIX GRILL",
+                "in_time": "19:28",
+                "out_time": "19:28",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 1,
+                "price_per_food": 7,
+                "food_option_name": "L",
+                "qty": 1,
+                "_id": "61d9bbc555ee46b2e2104d20"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "HAMOOS",
+                "in_time": "19:28",
+                "out_time": "19:28",
+                "food_description": "AL-ZAEEM",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 0,
+                "price_per_food": 0.6,
+                "food_option_name": "PORTION",
+                "qty": 1,
+                "_id": "61d9bbc555ee46b2e2104d21"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "BENIFIT PAY",
+                "amount": 7,
+                "_id": "61d9c09d55ee46b2e2123afa"
+            },
+            {
+                "name": "CARD",
+                "amount": 0.6,
+                "_id": "61d9c09d55ee46b2e2123afb"
+            }
+        ],
+        "mobile_number": "NONE",
+        "flat_number": "NONE",
+        "block": "NONE",
+        "building": "NONE",
+        "road": "NONE",
+        "lat": "NONE",
+        "lon": "NONE",
+        "driver": "NONE",
+        "delivery_status": "NONE",
+        "payment_status": 1,
+        "__v": 3
+    },
+    {
+        "_id": "cky62e3tc017milida9hl3yuy",
+        "order_id": 40,
+        "table_name": "NONE",
+        "operator_type": "CASHIER",
+        "operator_id": "22",
+        "order_type": "DELIVERY",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 14.476190476190476,
+        "delivery_packing_charges": 0.2,
+        "total_tax_amount": 0.7338095238095238,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61d9c11755ee46b2e2126c35"
+            }
+        ],
+        "total": 15.4,
+        "date": "2022-01-08",
+        "time": "19:51",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "DELIVERY",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MIX GRILL",
+                "food_name": "MIX GRILL",
+                "in_time": "19:51",
+                "out_time": "19:51",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 1,
+                "price_per_food": 7,
+                "food_option_name": "L",
+                "qty": 2,
+                "_id": "61d9c11755ee46b2e2126c36"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "HAMOOS",
+                "in_time": "19:51",
+                "out_time": "19:51",
+                "food_description": "AL-ZAEEM",
+                "comments": "N/A",
+                "Active": 4,
+                "food_type": 0,
+                "price_per_food": 0.6,
+                "food_option_name": "PORTION",
+                "qty": 2,
+                "_id": "61d9c11755ee46b2e2126c37"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "BENIFIT PAY",
+                "amount": 15,
+                "_id": "61da150655ee46b2e23c2fa6"
+            },
+            {
+                "name": "CARD",
+                "amount": 0.40000000000000036,
+                "_id": "61da150655ee46b2e23c2fa7"
+            }
+        ],
+        "mobile_number": "39210243",
+        "flat_number": "nn",
+        "block": "1204",
+        "building": "893",
+        "road": "412",
+        "lat": "26.0667",
+        "lon": "50.5577",
+        "driver": "krishna",
+        "delivery_status": "34",
+        "payment_status": 1,
+        "__v": 3
+    },
+    {
+        "_id": "cky6678k5018zilid4gut6ynr",
+        "order_id": 83,
+        "table_name": "G 8",
+        "operator_type": "CASHIER",
+        "operator_id": "burhaan",
+        "order_type": "DINE_IN",
+        "client_id": "T961278S2",
+        "cancel_reason": "WASTAGE",
+        "wastage_flag": 0,
+        "number_of_customers": 0,
+        "sub_total": 6.571,
+        "delivery_packing_charges": 0,
+        "total_tax_amount": 0.329,
+        "tax_name_percentage": [
+            {
+                "tax_name": "VAT",
+                "tax_percentage": 5,
+                "_id": "61d9da1555ee46b2e21f7bbf"
+            }
+        ],
+        "total": 6.9,
+        "date": "2022-01-08",
+        "time": "21:53",
+        "Active": 0,
+        "status": "SETTLED",
+        "main_menu_category": "DINE_IN",
+        "item_wise_breakup": [
+            {
+                "sub_menu_category": "MIX GRILL",
+                "food_name": "MIX GRILL",
+                "in_time": "21:38",
+                "out_time": "21:38",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 1,
+                "price_per_food": 3,
+                "food_option_name": "S",
+                "qty": 1,
+                "_id": "61d9da1555ee46b2e21f7bc0"
+            },
+            {
+                "sub_menu_category": "LAMB CHOPS",
+                "food_name": "LAMB CHOPS",
+                "in_time": "21:38",
+                "out_time": "21:38",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 2,
+                "food_type": 1,
+                "price_per_food": 2.7,
+                "food_option_name": "FULL",
+                "qty": 1,
+                "_id": "61d9da1555ee46b2e21f7bc1"
+            },
+            {
+                "sub_menu_category": "SALAD",
+                "food_name": "HAMOOS",
+                "in_time": "21:38",
+                "out_time": "21:38",
+                "food_description": "AL-ZAEEM",
+                "comments": "N/A",
+                "Active": 1,
+                "food_type": 0,
+                "price_per_food": 0.6,
+                "food_option_name": "PORTION",
+                "qty": 1,
+                "_id": "61d9da1555ee46b2e21f7bc2"
+            },
+            {
+                "sub_menu_category": "SOFT DRINKS",
+                "food_name": "PEPSI",
+                "in_time": "21:53",
+                "out_time": "21:53",
+                "food_description": "NONE",
+                "comments": "N/A",
+                "Active": 1,
+                "food_type": 0,
+                "price_per_food": 0.3,
+                "food_option_name": "SMALL",
+                "qty": 2,
+                "_id": "61d9ddaf55ee46b2e2220941"
+            }
+        ],
+        "payment_method": [
+            {
+                "name": "CASH",
+                "amount": 5,
+                "_id": "61d9e18555ee46b2e2248d9b"
+            },
+            {
+                "name": "CARD",
+                "amount": 1.9,
+                "_id": "61d9e18555ee46b2e2248d9c"
+            }
+        ],
+        "mobile_number": "NONE",
+        "flat_number": "NONE",
+        "block": "NONE",
+        "building": "NONE",
+        "road": "NONE",
+        "lat": "NONE",
+        "lon": "NONE",
+        "driver": "NONE",
+        "delivery_status": "NONE",
+        "payment_status": 1,
+        "__v": 3
+    }
+]

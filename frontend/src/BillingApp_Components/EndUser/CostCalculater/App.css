@@ -1,0 +1,113 @@
+body {
+    background-color: #1E1D28;
+}
+
+.login-div-main {
+    width: 100%;
+    min-height:100vh; 
+    background-color:"#1E1D28";  
+    padding:100px 30px
+}
+
+
+
+@media (max-width:600px) {
+    
+
+.quote-inn-div .quote-inn-div2{
+    /* font-size: 0px; */
+    width: 100%;
+    color: aliceblue;
+}
+.quote-inn-div .quote-inn-div2 p{
+    font-size: 20px;
+
+}
+.quote-inn-div .quote-inn-div2-2{
+    min-width: 40%;
+    margin-top: 50px;
+    /* border: none; */
+    text-align: start;
+    /* margin: 0% 20%; */
+}
+
+.quote-inn-div{
+    border: none;
+    flex-direction: column;
+    outline: none;
+}
+
+    
+}
+
+.payment-integration-div{
+
+    width: 100%;
+    /* background-color: green; */
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-main-div{
+    /* background-color: aliceblue; */
+    min-height: 200px;
+    width: 600px;
+    /* max-width: 50vw; */
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.76);
+    padding: 20px 0px;
+}
+
+
+.payment-input-div{
+    padding: 10px 20px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.payment-input-div label{
+    color: aliceblue;
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.payment-input-div input{
+    background-color: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: aliceblue;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.expiry-date-div{
+    /* width: 50%; */
+    display: flex;
+
+
+}
+
+.logo-pay{
+    max-width: 10vw;
+    min-width: 100px;
+}
+
+
+
+@media (max-width:500px) {
+
+    .payment-main-div{
+        width: 90vw;
+    }
+
+    .payment-input-div{
+        width: 100%;
+    }
+
+   
+}

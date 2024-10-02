@@ -1,0 +1,7 @@
+a.nav-link .active {
+    color: grey !important;
+}
+
+.active :hover{
+    color: grey !important;
+}

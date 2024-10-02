@@ -1,0 +1,18 @@
+.scrollable-div::-webkit-scrollbar {
+    height: 4px;
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+    background-color: #a8a4a4;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: none;
+    /* creates padding around scroll thumb */
+    width: 100px;
+}

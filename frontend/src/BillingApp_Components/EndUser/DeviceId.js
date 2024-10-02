@@ -1,0 +1,1 @@
+export const device_id = "0002"
