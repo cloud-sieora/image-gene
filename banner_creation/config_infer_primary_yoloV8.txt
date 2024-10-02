@@ -1,0 +1,348 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+onnx-file=/nvme0n1/search_others/yolov8_model/YoloV8/yolov8s.onnx
+model-engine-file=/nvme0n1/search_others/yolov8_model/YoloV8/model_b1_gpu0_fp16.engine
+#int8-calib-file=calib.table
+labelfile-path=/nvme0n1/search_others/yolov8_model/YoloV8/labels.txt
+batch-size=1
+network-mode=2
+num-detected-classes=80
+interval=0
+gie-unique-id=1
+process-mode=1
+cluster-mode=2
+maintain-aspect-ratio=1
+symmetric-padding=1
+#force-implicit-batch-dim=1
+#workspace-size=1000
+#parse-bbox-func-name=NvDsInferParseYolo
+parse-bbox-func-name=NvDsInferParseYoloCuda
+custom-lib-path=/nvme0n1/search_others/yolov8_model/nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
+engine-create-func-name=NvDsInferYoloCudaEngineGet
+
+[class-attrs-all]
+nms-iou-threshold=0.45
+pre-cluster-threshold=1.0
+topk=300
+
+# person
+[class-attrs-0]
+nms-iou-threshold=0.4
+pre-cluster-threshold=0.4
+topk=300
+
+# bicyle
+[class-attrs-1]
+nms-iou-threshold=1.0
+pre-cluster-threshold=1
+topk=300
+
+# car
+[class-attrs-2]
+nms-iou-threshold=1.0
+pre-cluster-threshold=1
+topk=300
+
+# motorbike
+[class-attrs-3]
+nms-iou-threshold=1.0
+pre-cluster-threshold=1
+topk=300
+
+# aeroplane
+[class-attrs-4]
+pre-cluster-threshold=1
+
+# train
+[class-attrs-6]
+pre-cluster-threshold=1
+
+# boat
+[class-attrs-8]
+pre-cluster-threshold=1
+
+# traffic light
+[class-attrs-9]
+pre-cluster-threshold=1
+
+# fire hydrant
+[class-attrs-10]
+pre-cluster-threshold=1
+
+# stop sign
+[class-attrs-11]
+pre-cluster-threshold=1
+
+# parking meter
+[class-attrs-12]
+pre-cluster-threshold=1
+
+# bench
+[class-attrs-13]
+pre-cluster-threshold=1
+
+# bird
+[class-attrs-14]
+pre-cluster-threshold=1
+
+# cat
+[class-attrs-15]
+pre-cluster-threshold=1
+
+# dog
+[class-attrs-16]
+pre-cluster-threshold=1
+
+# horse
+[class-attrs-17]
+pre-cluster-threshold=1
+
+# sheep
+[class-attrs-18]
+pre-cluster-threshold=1
+
+# cow
+[class-attrs-19]
+pre-cluster-threshold=1
+
+# elephant
+[class-attrs-20]
+pre-cluster-threshold=1
+
+# bear
+[class-attrs-21]
+pre-cluster-threshold=1
+
+# zebra
+[class-attrs-22]
+pre-cluster-threshold=1
+
+# giraffe
+[class-attrs-23]
+pre-cluster-threshold=1
+
+# backpack
+[class-attrs-24]
+pre-cluster-threshold=1
+
+# umbrella
+[class-attrs-25]
+pre-cluster-threshold=1
+
+# handbag
+[class-attrs-26]
+pre-cluster-threshold=1
+
+# tie
+[class-attrs-27]
+pre-cluster-threshold=1
+
+# suitcase
+[class-attrs-28]
+pre-cluster-threshold=1
+
+# frisbee
+[class-attrs-29]
+pre-cluster-threshold=1
+
+# skis
+[class-attrs-30]
+pre-cluster-threshold=1
+
+# snowboard
+[class-attrs-31]
+pre-cluster-threshold=1
+
+# sports ball
+[class-attrs-32]
+pre-cluster-threshold=1
+
+# kite
+[class-attrs-33]
+pre-cluster-threshold=1
+
+# baseball bat
+[class-attrs-34]
+pre-cluster-threshold=1
+
+# baseball glove
+[class-attrs-35]
+pre-cluster-threshold=1
+
+# skateboard
+[class-attrs-36]
+pre-cluster-threshold=1
+
+# surfboard
+[class-attrs-37]
+pre-cluster-threshold=1
+
+# tennis racket
+[class-attrs-38]
+pre-cluster-threshold=1
+
+# bottle
+[class-attrs-39]
+pre-cluster-threshold=1
+
+# wine glass
+[class-attrs-40]
+pre-cluster-threshold=1
+
+# cup
+[class-attrs-41]
+pre-cluster-threshold=1
+
+# fork
+[class-attrs-42]
+pre-cluster-threshold=1
+
+# knife
+[class-attrs-43]
+pre-cluster-threshold=1
+
+# spoon
+[class-attrs-44]
+pre-cluster-threshold=1
+
+# bowl
+[class-attrs-45]
+pre-cluster-threshold=1
+
+# banana
+[class-attrs-46]
+pre-cluster-threshold=1
+
+# apple
+[class-attrs-47]
+pre-cluster-threshold=1
+
+# sandwich
+[class-attrs-48]
+pre-cluster-threshold=1
+
+# orange
+[class-attrs-49]
+pre-cluster-threshold=1
+
+# broccoli
+[class-attrs-50]
+pre-cluster-threshold=1
+
+# carrot
+[class-attrs-51]
+pre-cluster-threshold=1
+
+# hot dog
+[class-attrs-52]
+pre-cluster-threshold=1
+
+# pizza
+[class-attrs-53]
+pre-cluster-threshold=1
+
+# donut
+[class-attrs-54]
+pre-cluster-threshold=1
+
+# cake
+[class-attrs-55]
+pre-cluster-threshold=1
+
+# chair
+[class-attrs-56]
+pre-cluster-threshold=1
+
+# sofa
+[class-attrs-57]
+pre-cluster-threshold=1
+
+# pottedplant
+[class-attrs-58]
+pre-cluster-threshold=1
+
+# bed
+[class-attrs-59]
+pre-cluster-threshold=1
+
+# diningtable
+[class-attrs-60]
+pre-cluster-threshold=1
+
+# toilet
+[class-attrs-61]
+pre-cluster-threshold=1
+
+# tvmonitor
+[class-attrs-62]
+pre-cluster-threshold=1
+
+# laptop
+[class-attrs-63]
+pre-cluster-threshold=1
+
+# mouse
+[class-attrs-64]
+pre-cluster-threshold=1
+
+# remote
+[class-attrs-65]
+pre-cluster-threshold=1
+
+# keyboard
+[class-attrs-66]
+pre-cluster-threshold=1
+
+# cell phone
+[class-attrs-67]
+pre-cluster-threshold=1
+
+# microwave
+[class-attrs-68]
+pre-cluster-threshold=1
+
+# oven
+[class-attrs-69]
+pre-cluster-threshold=1
+
+# toaster
+[class-attrs-70]
+pre-cluster-threshold=1
+
+# sink
+[class-attrs-71]
+pre-cluster-threshold=1
+
+# refrigerator
+[class-attrs-72]
+pre-cluster-threshold=1
+
+# book
+[class-attrs-73]
+pre-cluster-threshold=1
+
+# clock
+[class-attrs-74]
+pre-cluster-threshold=1
+
+# vase
+[class-attrs-75]
+pre-cluster-threshold=1
+
+# scissors
+[class-attrs-76]
+pre-cluster-threshold=1
+
+# teddy bear
+[class-attrs-77]
+pre-cluster-threshold=1
+
+# hair drier
+[class-attrs-78]
+pre-cluster-threshold=1
+
+# toothbrush
+[class-attrs-79]
+pre-cluster-threshold=1
