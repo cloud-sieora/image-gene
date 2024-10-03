@@ -18,6 +18,8 @@ import io
 import random
 import webcolors
 import os
+import vertexai
+from vertexai.preview.language_models import TextGenerationModel
 from PIL import Image
 # new token :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
 API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
@@ -93,6 +95,20 @@ async def poster_creation_api(request: Request):
     print("product_name:",product_name)
 
 
+    # Initialize Vertex AI
+    PROJECT_ID = "Gemini API"
+    vertexai.init(project=PROJECT_ID, location="us-central1")
+
+    # Load the Gemini model
+    model = TextGenerationModel.from_pretrained("gemini-1.5")
+
+    # Perform text-to-text generation
+    prompt = f"{festival_name}"
+    response = model.predict(prompt)
+
+    print(response.text)
+
+
     if not colorCode1:
         raise HTTPException(status_code=400, detail="No colorCode1 provided")
     
@@ -108,6 +124,8 @@ async def poster_creation_api(request: Request):
 
     if not offerPercentage:
         raise HTTPException(status_code=400, detail="No offerPercentage provided")
+        
+    festival_name = f"{festival_name}"
         
         
     # Create the enhanced input text
